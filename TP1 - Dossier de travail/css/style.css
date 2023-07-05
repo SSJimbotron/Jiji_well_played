@@ -1,56 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-  }
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  section {
-    width: 60%;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
 
-  .membre1 {
-    background-color: lightcoral;    
-  }
-  .membre2 {
-    background-color: lightgreen;    
-  }
-  .membre3 {
-    background-color: lightblue;    
-  }
-  .membre4 {
-    background-color: lightgoldenrodyellow;    
-  }
-  .membre5 {
-    background-color: lightseagreen;    
-  }
+body.body {
+  background-image: url(../img/pexels-saksham-choudhary-2036656.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+h1.accueil {
+  color: white;
+}
+
+a.a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(195, 115, 219);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.membre1 {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  color: rgb(222, 162, 217);
+}
+
+.membre1 a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(220, 162, 162);
+}
+
+.membre2 {
+  background-color: lightgreen;
+}
+
+.membre3 {
+  background-color: lightblue;
+}
+
+.membre4 {
+  background-color: lightgoldenrodyellow;
+}
+
+.membre5 {
+  background-color: lightseagreen;
+}
